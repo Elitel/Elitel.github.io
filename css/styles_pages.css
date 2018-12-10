@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    padding-top: 4em;
+    padding-top: 5em;
   }
 .colours
 {
@@ -72,7 +72,7 @@ p {
   }
   .navbar-brand>img 
   {
-height: 2em;
+height: 3em;
   }
   .nav-pills>.nav-item>.nav-link.active
   {
@@ -101,14 +101,15 @@ height: 2em;
     }
     body {
       font-size: 14px;
+      padding-top: 4em;
     }
     .breadcrumb-item
     {
-       font-size: 0.7em;
+   font-size: 0.7em;
     }
-    .navbar .dropdown-menu a
+    .navbar-brand>img 
   {
-    padding: 0.25em;
+height: 2em;
   }
   }
 div.view.overlay>img{
