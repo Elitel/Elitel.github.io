@@ -84,10 +84,7 @@ height: 2em;
     color: black;
     font-weight: 600;
   }
-  .navbar .dropdown-menu a
-  {
-    padding: 0.25em;
-  }
+  
   footer.page-footer {
     background-color: #222224;
   }
@@ -106,9 +103,13 @@ height: 2em;
       font-size: 14px;
     }
     .breadcrumb-item
-{
-  font-size: 0.7em;
-}
+    {
+       font-size: 0.7em;
+    }
+    .navbar .dropdown-menu a
+  {
+    padding: 0.25em;
+  }
   }
 div.view.overlay>img{
   width: 25em;
