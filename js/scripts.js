@@ -6,14 +6,6 @@ $(document).ready(function () {
         $(this).carousel('prev');
     })
 });
-// $(document).ready(function () {
-//     $("#carousel").swiperight(function () {
-//         $(this).carousel('prev');
-//     });
-//     $("#myCarousel").swipeleft(function () {
-//         $(this).carousel('next');
-//     });
-// });
 AOS.init({
     duration: 1000,
 });
