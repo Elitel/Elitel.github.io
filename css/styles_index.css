@@ -1,0 +1,110 @@
+/* MAIN */
+/* body {
+  font-family: 'Spectral', serif;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  font-size: 14px;
+} */
+
+a:hover
+{
+  color: black;
+}
+
+/* Navigation*/
+.navbar {
+  background-color: transparent;
+}
+
+.scrolling-navbar {
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: #222224;
+}
+
+footer.page-footer {
+  background-color: #222224;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+      background-color: #222224;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Necessary for full page carousel*/
+html,
+body,
+.view {
+  height: 100%;
+}
+
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {
+  height: 100%;
+}
+.jumbotron
+{
+  block-size: 100px;
+}
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-control-prev-icon {
+  background-image: url("../images/svg/arrow_left.svg");
+  height: 5em;
+  width: 5em;
+}
+
+.carousel .carousel-control-next-icon {
+  background-image: url("../images/svg/arrow_right.svg");
+  height: 5em;
+  width: 5em;
+}
+
+
+.carousel-item:nth-child(1) {
+  background-image: url("../images/pexels-photo-1121123 (1).jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(2) {
+  background-image: url("../images/pexels-photo-698323.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(3) {
+  background-image: url("../images/old-retro-antique-vintage-163182.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.carousel-item:nth-child(4) {
+  background-image: url("../images/wood-coffee-iphone-notebook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.carousel-item:nth-child(5) {
+  background-image: url("../images/architectural-design-architecture-blue-302831.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}

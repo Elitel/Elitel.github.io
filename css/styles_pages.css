@@ -1,0 +1,129 @@
+
+html,
+body,
+.view {
+  height: 100%;
+}
+/* Navigation*/
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 6em;
+
+  }
+#colours
+{
+    background-image: url("../images/pexels-photo-1121123 (1).jpeg");
+}
+#fonts
+{
+    background-image: url("../images/pexels-photo-698323.jpeg");
+}
+#styles
+{
+    background-image: url("../images/old-retro-antique-vintage-163182.jpeg");
+
+}
+#vacancies
+{
+    background-image: url("../images/architectural-design-architecture-blue-302831.jpg");
+
+}
+#education
+{
+    background-image: url("../images/wood-coffee-iphone-notebook.jpg");
+}
+.jumbotron
+{
+  border-radius: 1em;
+  background-color:#F1F0F6;
+  
+}
+.info
+{
+  border-radius: 1em;
+  background-color:#F1F0F6;
+}
+.textInfo
+{
+  text-indent: 1.5em;
+  text-align: justify;
+}
+p {
+  margin-top: 0.3em; /* Отступ сверху */
+  margin-bottom: 0.3em; /* Отступ снизу */
+ }
+ .infoLinks>li>a
+ {
+   color:black;
+ }
+ .infoLinks>li>a:hover{
+   color: orange;
+ }
+
+  .scrolling-navbar {
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+  }
+  
+  .top-nav-collapse {
+    background-color: #222224;
+  }
+  
+  .nav-pills>.nav-item>.nav-link.active
+  {
+   color:#F1F0F6;
+   background-color: #222224;
+  }
+  .nav-pills>.nav-item>.nav-link
+  {
+    color: black;
+    font-weight: 600;
+  }
+
+  footer.page-footer {
+    background-color: #222224;
+  }
+  @media only screen and (min-width: 768px)
+  {
+    div.full-page
+    {
+      height: 100vh;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: #222224;
+    }
+    body {
+      font-size: 14px;
+    }
+  }
+div.view.overlay>img{
+  width: 25em;
+  margin: auto;
+}
+* {
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
+}
+[aos="fade"] {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+[aos="fade"].aos-animate {
+  opacity: 1;
+}
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
