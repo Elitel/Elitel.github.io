@@ -45,7 +45,10 @@ body,
 .view {
   height: 100%;
 }
-
+.navbar-brand>img 
+  {
+    height: 2em;
+  }
 /* Carousel*/
 .carousel,
 .carousel-item,
@@ -56,6 +59,7 @@ body,
 {
   block-size: 100px;
 }
+
 .carousel-inner {
   height: 100%;
 }
