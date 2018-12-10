@@ -12,25 +12,25 @@ body{
     background-attachment: fixed;
     padding-top: 6em;
   }
-#colours
+.colours
 {
     background-image: url("../images/pexels-photo-1121123 (1).jpeg");
 }
-#fonts
+.fonts
 {
     background-image: url("../images/pexels-photo-698323.jpeg");
 }
-#styles
+.styles
 {
     background-image: url("../images/old-retro-antique-vintage-163182.jpeg");
 
 }
-#vacancies
+.vacancies
 {
     background-image: url("../images/architectural-design-architecture-blue-302831.jpg");
 
 }
-#education
+.education
 {
     background-image: url("../images/wood-coffee-iphone-notebook.jpg");
 }
@@ -86,7 +86,7 @@ p {
   }
   .navbar .dropdown-menu a
   {
-    padding: 0em;
+    padding: 0.25em;
   }
   footer.page-footer {
     background-color: #222224;
