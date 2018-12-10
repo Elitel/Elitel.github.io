@@ -49,6 +49,14 @@ body,
   {
     height: 2em;
   }
+  @media only screen and (max-width: 992px) {
+    .navbar {
+        background-color: #222224;
+    }
+    body {
+      font-size: 14px;
+    }
+  }
 /* Carousel*/
 .carousel,
 .carousel-item,
