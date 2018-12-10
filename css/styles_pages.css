@@ -70,7 +70,10 @@ p {
   .top-nav-collapse {
     background-color: #222224;
   }
-  
+  .navbar-brand>img 
+  {
+height: 2.5em;
+  }
   .nav-pills>.nav-item>.nav-link.active
   {
    color:#F1F0F6;
