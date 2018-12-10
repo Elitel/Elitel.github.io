@@ -84,9 +84,9 @@ p {
     color: black;
     font-weight: 600;
   }
-  .dropdown-item
+  .dropdown-item .dropdown-menu
   {
-  padding:.1rem 1.5rem;
+  padding: 0.1rem 1.5rem;
 }
   footer.page-footer {
     background-color: #222224;
