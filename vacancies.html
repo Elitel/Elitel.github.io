@@ -1,0 +1,642 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Вакансии</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="./Material Design Bootstrap_files/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:500,600,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/styles_pages.css">
+
+</head>
+
+<body aria-busy="true" id="vacancies">
+
+    <div class="fixed-top mask rgba-black-light">
+        <!--Меню-->
+        <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+            <!--Логотип-->
+            <a class="navbar-brand" href="index.html" title="Главная">
+                <img class="visible-sm" src="images/svg/logo.svg" height="50" alt="Лого">
+            </a>
+            <!--/Логотип-->
+            <!--Хлебные крошки-->
+            <div class="mr-auto">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb white-text d-lg-none">
+                        <li class="breadcrumb-item"><a class="white-text" href="index.html" title="Главная">Главная</a></li>
+                        <li class="breadcrumb-item active">Вакансии</li>
+                    </ol>
+                </nav>
+            </div>
+            <!--/Хлебные крошки-->
+            <!--Кнопка для сворачивания меню-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--/Кнопка для сворачивания меню-->
+            <!--Пункты меню-->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <ul class="navbar-nav mr-auto">
+                    <!--Главная-->
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="index.html" title="Главная">Главная
+                            
+                        </a>
+                    </li>
+                    <!--/Главная-->
+                    <!--Цвета-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Цвета</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item waves-effect waves-light" href="colour.html" title="О цвете">О цвете</a>
+                            <a class="dropdown-item waves-effect waves-light" href="colour_theory.html" title="Теория цвета">Теория цвета</a>
+                        </div>
+                    </li>
+                    <!--/Цвета-->
+                    <!--Шрифты-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Шрифты</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                           <a class="dropdown-item waves-effect waves-light" href="fonts.html" title="О шрифтах">О шрифтах</a>
+                            <a class="dropdown-item waves-effect waves-light" href="fonts_sans_serif.html" title="Шрифты без засечек">Шрифты без
+                                засечек (Sans-Serif)</a>
+                            <a class="dropdown-item waves-effect waves-light" href="fonts_serif.html" title="Шрифты с засечками">Шрифты
+                                с засечками (Serif)</a>
+                            <a class="dropdown-item waves-effect waves-light" href="fonts_cursive.html" title="Курсивные шрифты">Курсивные
+                                шрифты (Сursive)</a>
+                            <a class="dropdown-item waves-effect waves-light" href="fonts_fantasy.html" title="Декоративные шрифты">Декоративные
+                                шрифты (Fantasy)</a>
+                            <a class="dropdown-item waves-effect waves-light" href="fonts_monospace.html" title="Моноширинные шрифты">Моноширинные
+                                шрифты (Monospace)</a>
+                        </div>
+                    </li>
+                    <!--/Шрифты-->
+                    <!--Стили-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Стили</a>
+                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item waves-effect waves-light" href="styles.html" title"=О стилях">О стилях</a>                       
+                            <a class="dropdown-item waves-effect waves-light" href="style_retro.html" title="Ретро">Ретро</a>
+                            <a class="dropdown-item waves-effect waves-light" href="style_classic.html" title="Классический стиль">Классический стиль</a>
+
+                            <a class="dropdown-item waves-effect waves-light" href="style_illustration.html" title="Рисованный стиль">Рисованный
+                                стиль</a>
+                            <a class="dropdown-item waves-effect waves-light" href="style_flat_design.html" tite="Flat Design">Flat Design</a>
+                            <a class="dropdown-item waves-effect waves-light" href="style_beautiful_typography.html" title="Beautiful Typography">Beautiful Typography</a>
+                            <a class="dropdown-item waves-effect waves-light" href="style_organic_and_natural.html" title="Organic&Natural">Organic&Natural</a>
+                            <a class="dropdown-item waves-effect waves-light" href="style_google_material_design.html" title="Google Material Design">Google
+                                Material Design</a>
+                        </div>
+                    </li>
+                    <!--/Стили-->
+                    <!--Обучение-->
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="education.html">Обучение</a>
+                    </li>
+                    <!--/Обучение-->
+                    <!--Вакансии-->
+                    <li class="nav-item active">
+                        <a class="nav-link waves-effect waves-light" href="vacancies.html">Вакансии</a>
+                    </li>
+                    <!--/Вакансии-->
+                </ul>
+                <!--Пункты меню-->
+            </div>
+        </nav>
+        <!--/Меню-->
+    </div>
+    <!--Карточки jumbotron-->
+    <!--Карточка 1-->
+    <div class="col-lg-10 offset-lg-1">
+        <div class="jumbotron text-center hoverable p-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-4">
+                    <div class="view overlay">
+                        <img src="images/WG_Logo_MainVersion_SmoothMetal_FullColor.png" class="img-fluid"alt="Лого компании">
+                            <div class="mask rgba-white-slight"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-md-left">
+                    <h6 class="h5 text-md-right d-none d-md-block red-text pb-1"></i>Game Design</h6>
+                    <ul class="nav nav-justified nav-pills text-uppercase black-text mb-3" id="pills-tab1" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-vacancy1-tab" data-toggle="pill" href="#pills-vacancy1"
+                                role="tab" aria-controls="pills-vacancy1" aria-selected="true">О&nbspвакансии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-requirements1-tab" data-toggle="pill" href="#pills-requirements1"
+                                role="tab" aria-controls="pills-requirements1" aria-selected="false">Требования</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-conditions1-tab" data-toggle="pill" href="#pills-conditions1"
+                                role="tab" aria-controls="pills-conditions1" aria-selected="false">Условия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-companyInfo1-tab" data-toggle="pill" href="#pills-companyInfo1"
+                                role="tab" aria-controls="pills-companyInfo1" aria-selected="false">О&nbspкомпании</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-4 " id="pills-tabContent1">
+                        <div class="tab-pane text-justify fade show active" id="pills-vacancy1" role="tabpanel" aria-labelledby="pills-vacancy1-tab">Consequat
+                            occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt
+                            officia. Fugiat
+                            velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna
+                            elit commodo
+                            anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu
+                            adipisicing
+                            minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem
+                            incididunt
+                            nostrud.</div>
+                        <div class="tab-pane text-justify fade" id="pills-requirements1" role="tabpanel" aria-labelledby="pills-requirements1-tab">Ad
+                            pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute
+                            sunt incididunt
+                            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation
+                            cillum id
+                            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation
+                            duis
+                            deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor
+                            duis.</div>
+                        <div class="tab-pane text-justify fade" id="pills-conditions1" role="tabpanel" aria-labelledby="pills-conditions1-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                        <div class="tab-pane text-justify fade" id="pills-companyInfo1" role="tabpanel" aria-labelledby="pills-companyInfo1-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-danger text-uppercase" data-toggle="modal" data-target="#modalResumeForm">Отправить
+                            резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Карточка 1-->
+        <!--Карточка 2-->
+        <div class="jumbotron text-center hoverable p-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-4">
+                    <div class="view overlay">
+                        <img src="images/WG_Logo_MainVersion_SmoothMetal_FullColor.png" class="img-fluid"alt="Лого компании">
+                            <div class="mask rgba-white-slight"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-md-left">
+                    <h6 class="h5 text-md-right d-none d-md-block red-text pb-1"></i>Game Design</h6>
+                    <ul class="nav nav-justified nav-pills text-uppercase black-text mb-3" id="pills-tab2" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-vacancy-tab" data-toggle="pill" href="#pills-vacancy2"
+                                role="tab" aria-controls="pills-vacancy2" aria-selected="true">О&nbspвакансии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-requirements-tab" data-toggle="pill" href="#pills-requirements2"
+                                role="tab" aria-controls="pills-requirements2" aria-selected="false">Требования</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-conditions2-tab" data-toggle="pill" href="#pills-conditions2"
+                                role="tab" aria-controls="pills-conditions2" aria-selected="false">Условия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-companyInfo2-tab" data-toggle="pill" href="#pills-companyInfo2"
+                                role="tab" aria-controls="pills-companyInfo2" aria-selected="false">О&nbspкомпании</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-4 " id="pills-tabContent2">
+                        <div class="tab-pane text-justify fade show active" id="pills-vacancy2" role="tabpanel" aria-labelledby="pills-vacancy2-tab">Consequat
+                            occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt
+                            officia. Fugiat
+                            velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna
+                            elit commodo
+                            anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu
+                            adipisicing
+                            minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem
+                            incididunt
+                            nostrud.</div>
+                        <div class="tab-pane text-justify fade" id="pills-requirements2" role="tabpanel" aria-labelledby="pills-requirements2-tab">Ad
+                            pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute
+                            sunt incididunt
+                            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation
+                            cillum id
+                            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation
+                            duis
+                            deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor
+                            duis.</div>
+                        <div class="tab-pane text-justify fade" id="pills-conditions2" role="tabpanel" aria-labelledby="pills-conditions2-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                        <div class="tab-pane text-justify fade" id="pills-companyInfo2" role="tabpanel" aria-labelledby="pills-companyInfo2-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-danger text-uppercase" data-toggle="modal" data-target="#modalResumeForm">Отправить
+                            резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Карточка 2-->
+        <!--Карточка 3-->
+        <div class="jumbotron text-center hoverable p-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-4">
+                    <div class="view overlay">
+                        <img src="images/WG_Logo_MainVersion_SmoothMetal_FullColor.png" class="img-fluid"alt="Лого компании">
+                            <div class="mask rgba-white-slight"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-md-left">
+                    <h6 class="h5 text-md-right d-none d-md-block red-text pb-1"></i>Game Design</h6>
+                    <ul class="nav nav-justified nav-pills text-uppercase black-text mb-3" id="pills-tab3" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-vacancy3-tab" data-toggle="pill" href="#pills-vacancy3"
+                                role="tab" aria-controls="pills-vacancy4" aria-selected="true">О&nbspвакансии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-requirements3-tab" data-toggle="pill" href="#pills-requirements3"
+                                role="tab" aria-controls="pills-requirements3" aria-selected="false">Требования</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-conditions4-tab" data-toggle="pill" href="#pills-conditions3"
+                                role="tab" aria-controls="pills-conditions3" aria-selected="false">Условия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-companyInfo3-tab" data-toggle="pill" href="#pills-companyInfo3"
+                                role="tab" aria-controls="pills-companyInfo3" aria-selected="false">О&nbspкомпании</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-4 " id="pills-tabContent3">
+                        <div class="tab-pane text-justify fade show active" id="pills-vacancy3" role="tabpanel" aria-labelledby="pills-vacancy3-tab">Consequat
+                            occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt
+                            officia. Fugiat
+                            velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna
+                            elit commodo
+                            anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu
+                            adipisicing
+                            minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem
+                            incididunt
+                            nostrud.</div>
+                        <div class="tab-pane text-justify fade" id="pills-requirements3" role="tabpanel" aria-labelledby="pills-requirements3-tab">Ad
+                            pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute
+                            sunt incididunt
+                            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation
+                            cillum id
+                            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation
+                            duis
+                            deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor
+                            duis.</div>
+                        <div class="tab-pane text-justify fade" id="pills-conditions3" role="tabpanel" aria-labelledby="pills-conditions3-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                        <div class="tab-pane text-justify fade" id="pills-companyInfo3" role="tabpanel" aria-labelledby="pills-companyInfo3-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-danger text-uppercase" data-toggle="modal" data-target="#modalResumeForm">Отправить
+                            резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Карточка 3-->
+        <!--Карточка 4-->
+        <div class="jumbotron text-center hoverable p-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 p-4">
+                    <div class="view overlay">
+                        <img src="images/WG_Logo_MainVersion_SmoothMetal_FullColor.png" class="img-fluid"alt="Лого компании">
+                            <div class="mask rgba-white-slight"></div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6 text-md-left">
+                    <h6 class="h5 text-md-right d-none d-md-block red-text pb-1"></i>Game Design</h6>
+                    <ul class="nav nav-justified nav-pills text-uppercase black-text mb-3" id="pills-tab4" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-vacancy4-tab" data-toggle="pill" href="#pills-vacancy4"
+                                role="tab" aria-controls="pills-vacancy4" aria-selected="true">О&nbspвакансии</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-requirements4-tab" data-toggle="pill" href="#pills-requirements4"
+                                role="tab" aria-controls="pills-requirements4" aria-selected="false">Требования</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-conditions4-tab" data-toggle="pill" href="#pills-conditions4"
+                                role="tab" aria-controls="pills-conditions4" aria-selected="false">Условия</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-companyInfo4-tab" data-toggle="pill" href="#pills-companyInfo4"
+                                role="tab" aria-controls="pills-companyInfo4" aria-selected="false">О&nbspкомпании</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-4 " id="pills-tabContent4">
+                        <div class="tab-pane text-justify fade show active" id="pills-vacancy4" role="tabpanel" aria-labelledby="pills-vacancy4-tab">Consequat
+                            occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt
+                            officia. Fugiat
+                            velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna
+                            elit commodo
+                            anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu
+                            adipisicing
+                            minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem
+                            incididunt
+                            nostrud.</div>
+                        <div class="tab-pane text-justify fade" id="pills-requirements4" role="tabpanel" aria-labelledby="pills-requirements4-tab">Ad
+                            pariatur nostrud pariatur exercitation ipsum ipsum culpa mollit commodo mollit ex. Aute
+                            sunt incididunt
+                            amet commodo est sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate exercitation
+                            cillum id
+                            incididunt elit sunt. Qui minim sit magna Lorem id et dolore velit Lorem amet exercitation
+                            duis
+                            deserunt. Anim id labore elit adipisicing ut in id occaecat pariatur ut ullamco ea tempor
+                            duis.</div>
+                        <div class="tab-pane text-justify fade" id="pills-conditions4" role="tabpanel" aria-labelledby="pills-conditions4-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                        <div class="tab-pane text-justify fade" id="pills-companyInfo4" role="tabpanel" aria-labelledby="pills-companyInfo4-tab">Est
+                            quis nulla laborum officia ad nisi ex nostrud culpa Lorem excepteur aliquip dolor aliqua
+                            irure ex.
+                            Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit laborum veniam eu veniam.
+                            Eiusmod minim
+                            exercitation fugiat irure ex labore incididunt do fugiat commodo aliquip sit id deserunt
+                            reprehenderit
+                            aliquip nostrud. Amet ex cupidatat excepteur aute veniam incididunt mollit cupidatat esse
+                            irure officia
+                            elit do ipsum ullamco Lorem. Ullamco ut ad minim do mollit labore ipsum laboris ipsum
+                            commodo sunt
+                            tempor enim incididunt. Commodo quis sunt dolore aliquip aute tempor irure magna enim minim
+                            reprehenderit. Ullamco consectetur culpa veniam sint cillum aliqua incididunt velit ullamco
+                            sunt
+                            ullamco quis quis commodo voluptate. Mollit nulla nostrud adipisicing aliqua cupidatat
+                            aliqua pariatur
+                            mollit voluptate voluptate consequat non.</div>
+                    </div>
+                    <div class="text-center">
+                        <a class="btn btn-danger text-uppercase" data-toggle="modal" data-target="#modalResumeForm">Отправить
+                            резюме</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Карточка 4-->
+        <!--/Карточки jumbotron-->
+    </div>
+    <div class="modal fade" id="modalResumeForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title black-text w-100 font-weight-bold">Отправить резюме</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mt-2">
+                    <div class="md-form mb-3 id=" name">
+                        <input type="text" id="form11" class="form-control validate">
+                        <label data-error="Введите название компании" data-success="Принято" >Ваше имя</label>
+                    </div>
+
+                    <div class="md-form mb-3">
+                        <input type="email" id="form12" class="form-control validate">
+                        <label data-error="Неверный формат" data-success="Принято" >Адрес электронной почты</label>
+                    </div>
+                    <div class="md-form mb-3">
+                        <input type="tel" id="form13" class="form-control validate">
+                        <label data-error="Неверный формат" data-success="Принято" >Номер телефона</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Загрузите ваше резюме</label>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-success">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Футер-->
+    <footer class="page-footer text-center text-md-center">
+        <div class="container-fluid py-3">
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <a class="text-uppercase" data-toggle="modal" data-target="#modalconditionsForm">Сообщить об ошибке</a>
+                    <div class="modal fade" id="modalconditionsForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title black-text w-100 font-weight-bold">Сообщить об ошибке</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body mt-2">
+                                    <div class="md-form">
+                                        <textarea type="text" id="form13" class="md-textarea form-control validate"
+                                            rows="4"></textarea>
+                                        <label data-error="Кратко опишите цель сотрудничества" data-success="Спасибо"
+                                            >Опишите ошибку</label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button class="btn btn-success">Отправить</i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <a class="text-uppercase" data-toggle="modal" data-target="#modalconditionsForm2">Сотрудничество</a>
+                    <div class="modal fade" id="modalconditionsForm2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title black-text w-100 font-weight-bold">Сотрудничество</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body mt-2">
+                                    <div class="md-form mb-3">
+                                        <input type="text" id="form11" class="form-control validate">
+                                        <label data-error="Введите название компании" data-success="Принято" >Название
+                                            компании</label>
+                                    </div>
+
+                                    <div class="md-form mb-3">
+                                        <input type="email" id="form12" class="form-control validate">
+                                        <label data-error="Неверный формат" data-success="Принято" >Адрес
+                                            электронной почты</label>
+                                    </div>
+
+                                    <div class="md-form">
+                                        <textarea type="text" id="form13" class="md-textarea form-control" rows="3"></textarea>
+                                        <label data-error="Кратко опишите цель сотрудничества" data-success="Спасибо"
+                                            >Ваше предложение</label>
+                                    </div>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-center">
+                                    <button class="btn btn-success">Отправить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto">
+                    <a class="text-uppercase" data-toggle="modal" data-target="#modalInfo">О нас</a>
+                    <div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content black-text ">
+                                <div class="modal-header text-center">
+                                    <h4 class="modal-title black-text w-100 font-weight-bold">О нас</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body mt-2">
+                                    <div class=" mb-3">
+                                        UIniverse
+                                    </div>
+                                    <div class="mb-3">
+                                        Инфа
+                                    </div>
+                                    <div class="rows=" 3" mb-3">
+                                        Электронный адрес
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <XML ID="xmlSteps" SRC="xml/footer.xml"></XML>
+        <SPAN DATASRC="#xmlSteps" DATAFLD="CREATOR"></SPAN>
+        <div class="footer-copyright text-center">
+            <div class="container-fluid py-3">
+                © 2018 Copyright: <a href="#">Elitel</a>
+            </div>
+        </div>
+    </footer>
+    <!--/Футер-->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>
