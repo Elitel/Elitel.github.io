@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    $("#carousel").swiperight(function () {
-        $(this).carousel('prev');
-    });
-    $("#carousel").swipeleft(function () {
+    $('#carousel').hammer().on('swipeleft', function () {
         $(this).carousel('next');
-    });
+    })
+    $('#carousel').hammer().on('swiperight', function () {
+        $(this).carousel('prev');
+    })
 });
 AOS.init({
     duration: 1000,
