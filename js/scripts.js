@@ -6,6 +6,15 @@ $(document).ready(function () {
         $(this).carousel('prev');
     })
 });
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            $(document).ready(function() {
+                $("#carousel").swiperight(function() {
+                   $(this).carousel('prev');
+                 });
+                $("#carousel").swipeleft(function() {
+                   $(this).carousel('next');
+                });
+             });
 AOS.init({
     duration: 1000,
 });
