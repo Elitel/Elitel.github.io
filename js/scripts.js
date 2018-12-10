@@ -1,4 +1,3 @@
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             $(document).ready(function() {
                 $("#carousel").swiperight(function() {
                    $(this).carousel('prev');
