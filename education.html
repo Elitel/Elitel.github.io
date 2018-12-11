@@ -222,14 +222,16 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn btn-success text-uppercase" data-toggle="modal" data-target="#modalRegisterForm">Зарегистрироваться</a>
+                        <a
+                            class="btn btn-success text-uppercase"
+                            data-toggle="modal"
+                            data-course-name="Применение Adobe Photoshop в веб-дизайне"
+                            data-target="#modalRegisterForm"
+                        >Зарегистрироваться</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div id="hide" class="white-text mx-auto h1">
-            Вниз
-        </div> -->
 
         <!--/Карточка 1-->
         <!--Карточка 2-->
@@ -345,7 +347,12 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn btn-success text-uppercase" data-toggle="modal" data-target="#modalRegisterForm">Зарегистрироваться</a>
+                        <a
+                            class="btn btn-success text-uppercase"
+                            data-toggle="modal"
+                            data-course-name="Современный Front-End c использованием JavaScript и HTML5"
+                            data-target="#modalRegisterForm"
+                        >Зарегистрироваться</a>
                     </div>
                 </div>
             </div>
@@ -434,7 +441,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn btn-success text-uppercase" data-toggle="modal" data-target="#modalRegisterForm">Зарегистрироваться</a>
+                        <a class="btn btn-success text-uppercase" data-toggle="modal" data-course-name="Основы практического геймдизайна" data-target="#modalRegisterForm">Зарегистрироваться</a>
                     </div>
                 </div>
             </div>
@@ -453,16 +460,13 @@
                     </button>
                 </div>
                 <form class="modal-body mt-2" action="https://formspree.io/uiniverse2018@gmail.com" method="POST">
+                    <div class="md-form mb-3"> Курс:
+                        <input readonly type="text" id="form14" name="courseName" class="col-9">
+                    </div>
                     <div class="md-form mb-3">
                         <input type="text" id="form11" name="name" class="form-control validate">
                         <label data-error="Введите имя" data-success="Принято">Ваше имя</label>
                     </div>
-
-                    <div class="md-form mb-3">
-                        <input type="text" id="form14" name="courseId" class="form-control validate" readonly>
-                        <label data-error="Введите имя"  data-success="Принято">Ваше курс</label>
-                    </div>
-
                     <div class="md-form mb-3">
                         <input type="email" id="form12" name="e-adress" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Адрес электронной почты</label>
@@ -592,7 +596,10 @@
     <script type="text/javascript" src="js/aos.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script>
-        
+        $('#modalRegisterForm').on('show.bs.modal', function(e) {
+            var courseName = $(e.relatedTarget).data('course-name');
+            $(e.currentTarget).find('input[name="courseName"]').val(courseName);
+        });
     </script>
 </body>
 
