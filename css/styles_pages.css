@@ -30,6 +30,36 @@ body{
     background-image: url("../images/architectural-design-architecture-blue-302831.jpg");
   height: 100vh;
 }
+h5.gamedev
+{
+  color:#FF3547;
+  font-weight: 500;
+}
+a.btn.gamedev
+{
+  background-color: #ff3547;
+  color: #fff;
+}
+h5.frontend
+{
+  color:#460996;
+  font-weight: 500;
+}
+a.btn.frontend
+{
+  background-color: #460996;
+  color: #fff;
+}
+h5.design
+{
+  color:#4DB6AC;
+  font-weight: 500;
+}
+a.btn.design
+{
+  background-color: #4DB6AC;
+  color: #fff;
+}
 .education
 {
     background-image: url("../images/wood-coffee-iphone-notebook.jpg");
@@ -64,6 +94,36 @@ p {
    color: orange;
    text-decoration: orange underline; 
    }
+.teacher>a
+{
+  font-size:1.1em;
+  text-transform: uppercase;
+  color:#00C851;
+  text-decoration: #00C851 underline;
+}
+.teacher>a:hover
+{
+  color:grey;
+  text-decoration: gray underline;
+}
+.course>h4>a{
+  color:#00C851;
+}
+.course>h4>a:hover{
+  color:grey;
+}
+a.gamedev{
+  color: #ff3547;
+}
+a.frontend{
+  color: #460996;
+}
+a.design{
+  color: #4DB6AC;
+}
+h4>a:hover{
+  color:grey;
+}
 
   .scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
