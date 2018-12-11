@@ -52,8 +52,8 @@ body{
 }
 
 p {
-  margin-top: 0.3em; /* Отступ сверху */
-  margin-bottom: 0.3em; /* Отступ снизу */
+  margin-top: 0.2em; /* Отступ сверху */
+  margin-bottom: 0.2em; /* Отступ снизу */
  }
  .infoLinks>li>a
  {
@@ -99,18 +99,25 @@ height: 3em;
     .navbar {
         background-color: #222224;
     }
+    .navbar .dropdown-menu a
+  {
+    padding: 0.25em;
+  }
     body {
       font-size: 14px;
       padding-top: 4em;
     }
     .breadcrumb-item
     {
-   font-size: 0.7em;
-    }
-    .navbar-brand>img 
-  {
+  
 height: 2em;
   }
+  }
+  @media (max-width: 768px){
+    .breadcrumb-item
+    {
+   font-size: 0.85em;
+    }
   }
 div.view.overlay>img{
   width: 25em;
