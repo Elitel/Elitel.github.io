@@ -58,10 +58,12 @@ p {
  .infoLinks>li>a
  {
    color:black;
+   text-decoration: black underline; 
  }
  .infoLinks>li>a:hover{
    color: orange;
- }
+   text-decoration: orange underline; 
+   }
 
   .scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
