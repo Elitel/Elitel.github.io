@@ -254,7 +254,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn frontend text-uppercase" data-toggle="modal" data-target="#modalResumeForm"
+                        <a class="btn frontend text-uppercase" data-toggle="modal" data-target="#modalCVForm"
                         data-vacancy-name="Front End Developer"
                         data-company-name="ISsoft">Отправить
                             резюме</a>
@@ -389,7 +389,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn gamedev text-uppercase" data-toggle="modal" data-target="#modalResumeForm"
+                        <a class="btn gamedev text-uppercase" data-toggle="modal" data-target="#modalCVForm"
                         data-vacancy-name="Lead Game Designer"
                         data-company-name="Wargaming">Отправить
                             резюме</a>
@@ -487,7 +487,7 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <a class="btn design text-uppercase" data-toggle="modal" data-target="#modalResumeForm"
+                        <a class="btn design text-uppercase" data-toggle="modal" data-target="#modalCVForm"
                         data-vacancy-name="Дизайнер"
                         data-company-name="Easybrain">Отправить
                             резюме</a>
@@ -498,7 +498,7 @@
         <!--/Карточка 3-->
         <!--/Карточки jumbotron-->
     </div>
-    <div class="modal fade" id="modalResumeForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalCVForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
@@ -515,21 +515,21 @@
                         <input readonly type="text" id="form14" name="companyName" class="col-9">
                     </div>
                     <div class="md-form mb-3">
-                        <input type="text" id="form11" name="name" class="form-control validate">
+                        <input type="text" id="form11" name="Name" class="form-control validate">
                         <label data-error="Введите имя" data-success="Принято">Ваше имя</label>
                     </div>
 
                     <div class="md-form mb-3">
-                        <input type="email" id="form12" name="email" class="form-control validate">
+                        <input type="email" id="form12" name="Email" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Адрес электронной почты</label>
                     </div>
                     <div class="md-form mb-3">
-                        <input type="tel" id="form13" name="tel" class="form-control validate">
+                        <input type="tel" id="form13" name="Phone" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Номер телефона</label>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlFile1">Загрузите ваше резюме</label>
-                        <input type="hidden" role="uploadcare-uploader" name="resume" />
+                        <input type="hidden" role="uploadcare-uploader" name="CV" />
                     </div>
                     
                 <div class="modal-footer d-flex justify-content-center">
@@ -653,7 +653,7 @@
     <script type="text/javascript" src="js/aos.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script>
-        $('#modalResumeForm').on('show.bs.modal', function(e) {
+        $('#modalCVForm').on('show.bs.modal', function(e) {
             var vacancyName = $(e.relatedTarget).data('vacancy-name');
             $(e.currentTarget).find('input[name="vacancyName"]').val(vacancyName);
             var companyName = $(e.relatedTarget).data('company-name');
