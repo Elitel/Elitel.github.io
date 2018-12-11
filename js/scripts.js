@@ -6,6 +6,7 @@ $(document).ready(function () {
         $(this).carousel('prev');
     })
 });
+
 AOS.init({
     duration: 1000,
 });
