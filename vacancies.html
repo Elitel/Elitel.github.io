@@ -14,7 +14,8 @@
     <link href="https://fonts.googleapis.com/css?family=Spectral:500,600,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/styles_pages.css">
-
+    <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
+    <script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
 <body aria-busy="true" class="vacancies">
@@ -514,21 +515,21 @@
                         <input readonly type="text" id="form14" name="companyName" class="col-9">
                     </div>
                     <div class="md-form mb-3">
-                        <input type="text" id="form11" class="form-control validate">
+                        <input type="text" id="form11" name="name" class="form-control validate">
                         <label data-error="Введите имя" data-success="Принято">Ваше имя</label>
                     </div>
 
                     <div class="md-form mb-3">
-                        <input type="email" id="form12" class="form-control validate">
+                        <input type="email" id="form12" name="email" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Адрес электронной почты</label>
                     </div>
                     <div class="md-form mb-3">
-                        <input type="tel" id="form13" class="form-control validate">
+                        <input type="tel" id="form13" name="tel" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Номер телефона</label>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlFile1">Загрузите ваше резюме</label>
-                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        <input type="hidden" role="uploadcare-uploader" name="resume" />
                     </div>
                     
                 <div class="modal-footer d-flex justify-content-center">
