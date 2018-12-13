@@ -1,0 +1,95 @@
+*
+{
+    box-sizing: border-box;
+}
+.item
+{
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+[aos="fade"]
+{
+    opacity: 0;
+    transition-property: opacity;
+} 
+[aos="fade"].aos-animate
+{
+    opacity: 1;
+}
+/*Типы специальностей*/
+h5.gamedev
+{
+  color:#FF3547;
+  font-weight: 500;
+}
+h5.frontend
+{
+  color:#460996;
+  font-weight: 500;
+}
+h5.design
+{
+  color:#4DB6AC;
+  font-weight: 500;
+}
+
+/*Кнопки специальностей*/
+a.btn.gamedev
+{
+  background-color: #ff3547;
+  color: #fff;
+}
+a.btn.frontend
+{
+  background-color: #460996;
+  color: #fff;
+}
+a.btn.design
+{
+  background-color: #4DB6AC;
+  color: #fff;
+}
+
+/*Ссылки специальностей*/
+a.gamedev
+{
+    color: #ff3547;
+}
+a.frontend
+{
+    color: #460996;
+}
+a.design
+{
+    color: #4DB6AC;
+}
+
+/*Ссылки преподавателей*/
+.teacher>a
+{
+  font-size:1.1em;
+  text-transform: uppercase;
+  color:#00C851;
+  text-decoration: #00C851 underline;
+}
+.teacher>a:hover
+{
+  color:grey;
+  text-decoration: gray underline;
+}
+
+/*Ссылки курсов*/
+.course>h4>a
+{
+  color:#00C851;
+}
+.course>h4>a:hover
+{
+  color:grey;
+}

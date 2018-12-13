@@ -1,0 +1,51 @@
+/* Меню*/
+.navbar
+{
+   background-color: transparent;
+}
+  
+.scrolling-navbar
+{
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+  
+.top-nav-collapse
+{
+  background-color: #222224;
+}
+.navbar-brand>img 
+{
+  height: 3em;
+}
+.nav-pills>.nav-item>.nav-link.active
+{
+ color:#F1F0F6;
+ background-color: #222224;
+}
+.nav-pills>.nav-item>.nav-link
+{
+  color: black;
+  font-weight: 600;
+}
+@media only screen and (max-width: 992px)
+{
+  .navbar
+  {
+    background-color: #222224;
+  }
+  .navbar .dropdown-menu a
+  {
+    padding: 0.25em;
+  }
+  .navbar-brand>img 
+  {
+     height: 2em;
+  } 
+}
+
+/*Футер*/
+footer.page-footer
+{
+  background-color: #222224;
+}
+  

@@ -1,17 +1,17 @@
-
 html,
 body,
 .view {
   height: 100%;
 }
-/* Navigation*/
-body{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    padding-top: 5em;
-  }
+/* Фон*/
+body
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  padding-top: 5em;
+}
 .colours
 {
     background-image: url("../images/pexels-photo-1121123 (1).jpeg");
@@ -30,188 +30,76 @@ body{
     background-image: url("../images/architectural-design-architecture-blue-302831.jpg");
   height: 100vh;
 }
-h5.gamedev
-{
-  color:#FF3547;
-  font-weight: 500;
-}
-a.btn.gamedev
-{
-  background-color: #ff3547;
-  color: #fff;
-}
-h5.frontend
-{
-  color:#460996;
-  font-weight: 500;
-}
-a.btn.frontend
-{
-  background-color: #460996;
-  color: #fff;
-}
-h5.design
-{
-  color:#4DB6AC;
-  font-weight: 500;
-}
-a.btn.design
-{
-  background-color: #4DB6AC;
-  color: #fff;
-}
 .education
 {
     background-image: url("../images/wood-coffee-iphone-notebook.jpg");
 }
+
+/*Джамботрон (карточки) главных тем*/
 .jumbotron
 {
   border-radius: 1em;
   background-color:#F1F0F6;
-  
 }
-.info
+
+.jumbotron
 {
   border-radius: 1em;
   background-color:#F1F0F6;
 }
-.textInfo
+.textJumbotron
 {
   text-indent: 1.5em;
   text-align: justify;
 }
-
-p {
-  margin-top: 0.2em; /* Отступ сверху */
-  margin-bottom: 0.2em; /* Отступ снизу */
+p
+{
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+ul {
+  padding: 0; 
+  margin-left: 20px; 
  }
- .infoLinks>li>a
+ .jumbotronLinks>li>a
  {
-   color:black;
-   text-decoration: black underline; 
+  color:black;
+  text-decoration: black underline; 
  }
- .infoLinks>li>a:hover{
-   color: orange;
-   text-decoration: orange underline; 
-   }
-.teacher>a
+ .jumbotronLinks>li>a:hover
 {
-  font-size:1.1em;
-  text-transform: uppercase;
-  color:#00C851;
-  text-decoration: #00C851 underline;
-}
-.teacher>a:hover
-{
-  color:grey;
-  text-decoration: gray underline;
-}
-.course>h4>a{
-  color:#00C851;
-}
-.course>h4>a:hover{
-  color:grey;
-}
-a.gamedev{
-  color: #ff3547;
-}
-a.frontend{
-  color: #460996;
-}
-a.design{
-  color: #4DB6AC;
-}
-h4>a:hover{
-  color:grey;
+  color: orange;
+  text-decoration: orange underline; 
 }
 
-  .scrolling-navbar {
-    transition: background .5s ease-in-out, padding .5s ease-in-out;
-  }
-  
-  .top-nav-collapse {
-    background-color: #222224;
-  }
-  .navbar-brand>img 
-  {
-height: 3em;
-  }
-  .nav-pills>.nav-item>.nav-link.active
-  {
-   color:#F1F0F6;
-   background-color: #222224;
-  }
-  .nav-pills>.nav-item>.nav-link
-  {
-    color: black;
-    font-weight: 600;
-  }
-  
-  footer.page-footer {
-    background-color: #222224;
-  }
-  @media only screen and (min-width: 768px)
+div.view.overlay>img
+{
+  width: 25em;
+  margin: auto;
+}
+
+@media only screen and (min-width: 768px)
   {
     div.full-page
     {
       height: 100vh;
     }
-  }
-  @media only screen and (max-width: 992px) {
-    .navbar {
-        background-color: #222224;
-    }
-    .navbar .dropdown-menu a
-  {
-    padding: 0.25em;
-  }
-    body {
-      font-size: 14px;
-      padding-top: 4em;
-    }
-    .breadcrumb-item
-    {
-  
-height: 2em;
-  }
-  .navbar-brand>img 
+}
+@media only screen and (max-width: 992px)
+{  
+  .breadcrumb-item
   {
     height: 2em;
   }
-  }
-  @media (max-width: 768px){
-    .breadcrumb-item
-    {
-   font-size: 0.8em;
-    }
-  }
-div.view.overlay>img{
-  width: 25em;
-  margin: auto;
 }
-* {
-  box-sizing: border-box;
-}
-ul {
-  padding: 0; /* Убираем поля */
-  margin-left: 20px; /* Отступ слева */
+@media (max-width: 768px)
+{
+  .breadcrumb-item
+ {
+  font-size: 0.8em;
  }
-.item {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
-  padding-top: 75px;
-  background: #ccc;
-  text-align: center;
-  color: #FFF;
-  font-size: 3em;
-}
-[aos="fade"] {
-  opacity: 0;
-  transition-property: opacity;
 }
 
-[aos="fade"].aos-animate {
-  opacity: 1;
-}
-@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+
+
+
