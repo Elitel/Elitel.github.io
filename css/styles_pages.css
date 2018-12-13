@@ -192,7 +192,10 @@ div.view.overlay>img{
 * {
   box-sizing: border-box;
 }
-
+ul {
+  padding: 0; /* Убираем поля */
+  margin-left: 20px; /* Отступ слева */
+ }
 .item {
   width: 200px;
   height: 200px;

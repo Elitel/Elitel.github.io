@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Spectral:500,600,700&amp;subset=cyrillic" rel="stylesheet">
+
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/styles_pages.css">
     <script>UPLOADCARE_PUBLIC_KEY = "demopublickey";</script>
     <script src="https://ucarecdn.com/libs/widget/2.10.2/uploadcare.full.min.js" charset="utf-8"></script>
 </head>
 
-<body aria-busy="true" class="vacancies">
+<body class="vacancies">
 
     <div class="fixed-top mask rgba-black-light">
         <!--Меню-->
@@ -39,13 +39,13 @@
             </div>
             <!--/Хлебные крошки-->
             <!--Кнопка для сворачивания меню-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Collapse Button">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <!--/Кнопка для сворачивания меню-->
             <!--Пункты меню-->
-            <div class="collapse navbar-collapse" id="basicExampleNav">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto">
                     <!--Главная-->
                     <li class="nav-item">
@@ -58,7 +58,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink1"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Цвета</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink1">
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink1">
                             <a class="dropdown-item waves-effect waves-light" href="colour.html" title="О цвете">О
                                 цвете</a>
                             <a class="dropdown-item waves-effect waves-light" href="colour_theory.html" title="Теория цвета">Теория
@@ -70,7 +70,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink2"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Шрифты</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink2">
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
                             <a class="dropdown-item waves-effect waves-light" href="fonts.html" title="О шрифтах">О
                                 шрифтах</a>
                             <a class="dropdown-item waves-effect waves-light" href="fonts_sans_serif.html" title="Шрифты без засечек">Шрифты
@@ -91,7 +91,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink3"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Стили</a>
-                        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink3">
+                        <div class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink3">
                             <a class="dropdown-item waves-effect waves-light" href="styles.html" title="О стилях">О
                                 стилях</a>
                             <a class="dropdown-item waves-effect waves-light" href="style_retro.html" title="Ретро">Ретро</a>
@@ -169,23 +169,18 @@
                             <ul>
                                 <li>
                                     Разработка новых компонентов UI
-
                                 </li>
                                 <li>
                                     Написание UI библиотек для будущего использования
-
                                 </li>
                                 <li>
                                     Подтверждение возможности разработки тех или иных дизайнерских UI/UX-решений
-
                                 </li>
                                 <li>
                                     Тестирование разработанных компонентов для обеспечения качества продукта
-
                                 </li>
                                 <li>
                                     Непосредственное взаимодействие с командой клиента
-
                                 </li>
                             </ul>
                         </div>
@@ -238,7 +233,6 @@
                                 </li>
                                 <li>
                                     Медицинская страховка
-
                                 </li>
                             </ul>
                         </div>
@@ -247,8 +241,8 @@
                             рабочих задач, вы можете успешно заниматься R&D. Вечеринки и спорт, походы и сплавы – нас
                             объединяет не только работа. В компании принято делиться своими знаниями, поэтому ISsoft на
                             регулярной основе проводит митапы и конференции для сотрудников. Мы довольны комфортной
-                            атмосферой в наших офисах и рады разделить ее с вами. Мы называем себя: «маленькая большая
-                            компания».
+                            атмосферой в наших офисах и рады разделить ее с вами. Мы называем себя: &laquo;маленькая большая
+                            компания&raquo;.
                         </div>
                     </div>
                     <div class="text-center">
@@ -259,7 +253,6 @@
                 </div>
             </div>
         </div>
-
         <!--/Карточка 1-->
         <!--Карточка 2-->
         <div class="jumbotron text-center hoverable p-4 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
@@ -294,50 +287,53 @@
                         <div class="tab-pane text-justify fade show active" id="pills-vacancy4" role="tabpanel"
                             aria-labelledby="pills-vacancy4-tab">
                             <h4><a class="gamedev" href="https://wargaming.com/" title="Wargaming">Lead Game Designer</a></h4>
+                            <p>
                             Минская студия подразделения Wargaming Mobile, которая занимается разработкой и
                             оперированием World of Tanks Blitz, приглашает к сотрудничеству Lead Game Designer /
-                            руководителя команды гейм-дизайнеров.
-
-                            Мы ждем не только талантливого управленца, но и профессионала-практика, способного в любой
+                            <b>руководителя команды гейм-дизайнеров</b>.
+                            </p>
+                            <p>
+                                Мы ждем не только талантливого управленца, но и профессионала-практика, способного в любой
                             момент включиться в творческий процесс. Поэтому наряду с предложением направлений развития
                             новых продуктов и проектирования систем и концептов для их кор-геймплея, вам предстоит
                             заниматься обучением своей команды и вести ее к вершинам мастерства, чтобы в итоге
                             создавать те мобильные продукты, которые придутся по вкусу нашей аудитории.
+                            </p>
                         </div>
                         <div class="tab-pane text-justify fade" id="pills-requirements4" role="tabpanel"
                             aria-labelledby="pills-requirements4-tab">
                             <ul>
                                 <li>
-                                    опыт работы в индустрии в дизайнерской должности не менее 5 лет; работа на позиции
+                                    Опыт работы в индустрии в дизайнерской должности не менее 5 лет; работа на позиции
                                     старшего дизайнера хотя бы на одном игровом проекте, вышедшем в релиз; </li>
                                 <li>
-                                    гейм-дизайнер как минимум одного live-service/GaaS-тайтла и как минимум одного
+                                    Гейм-дизайнер как минимум одного live-service/GaaS-тайтла и как минимум одного
                                     качественного мобильного экшена для мидкорной или хардкорной аудитории; </li>
                                 <li>
-                                    опыт работы с игровыми движками (Unreal, Unity);
+                                    Опыт работы с игровыми движками (Unreal, Unity);
                                 </li>
                                 <li>
-                                    портфолио, подтверждающее опыт написания скриптов, быстрого прототипирования и
+                                    Портфолио, подтверждающее опыт написания скриптов, быстрого прототипирования и
                                     создания качественного геймплея, интерес к такой работе;
                                 </li>
                                 <li>
-                                    сочетание творческих и аналитических навыков, опыт создания и поддержания подробной
+                                    Сочетание творческих и аналитических навыков, опыт создания и поддержания подробной
                                     дизайн-документации, ее обновления по итогам тестов, по результатам фидбека и с
                                     опорой на новые возможности разработки;
                                 </li>
                                 <li>
-                                    способность убедительно и ясно раскрывать другим участникам команды видение
+                                    Способность убедительно и ясно раскрывать другим участникам команды видение
                                     продукта, быть главным вдохновителем проекта;
                                 </li>
                                 <li>
-                                    способность консультировать и обучать менее опытных дизайнеров, воодушевляя их на
+                                    Способность консультировать и обучать менее опытных дизайнеров, воодушевляя их на
                                     создание превосходных фич и продуманных систем геймплея;
                                 </li>
                                 <li>
-                                    гибкость, адаптивность и способность эффективно работать в командной среде;
+                                    Гибкость, адаптивность и способность эффективно работать в командной среде;
                                 </li>
                                 <li>
-                                    творческое и критическое мышление, способность выдавать оригинальные решения,
+                                    Творческое и критическое мышление, способность выдавать оригинальные решения,
                                     позволяющие устранить или обойти препятствия при разработке нового проекта.
                                 </li>
                             </ul>
@@ -345,44 +341,54 @@
                         <div class="tab-pane text-justify fade" id="pills-conditions4" role="tabpanel" aria-labelledby="pills-conditions4-tab">
                             <ul>
                                 <li>
-                                    предлагать дизайнерские идеи, которые сделают геймплей интересным и увлекательным и
+                                    Предлагать дизайнерские идеи, которые сделают геймплей интересным и увлекательным и
                                     будут реализованы с ресурсами, которыми располагает студия; самостоятельно вести
-                                    разработку ключевых фич и систем; <li>
+                                    разработку ключевых фич и систем; 
+                                <li>
                                     гейм-дизайнер как минимум одного live-service/GaaS-тайтла и как минимум одного
-                                    качественного мобильного экшена для мидкорной или хардкорной аудитории; </li>
+                                    качественного мобильного экшена для мидкорной или хардкорной аудитории; 
+                                </li>
                                 <li>
-                                    заниматься обеспечением качественной работы команды и упреждением потенциальных
+                                    Заниматься обеспечением качественной работы команды и упреждением потенциальных
                                     рисков производительности за счет грамотного определения трудозатрат, распределения
-                                    задач между дизайнерами и контроля за их выполнением; </li>
-
+                                    задач между дизайнерами и контроля за их выполнением; 
+                                </li>
                                 <li>
-                                    своевременно предоставлять конструктивную обратную связь участникам своей команды,
-                                    которая будет способствовать их профессиональному росту; </li>
+                                    Своевременно предоставлять конструктивную обратную связь участникам своей команды,
+                                    которая будет способствовать их профессиональному росту; 
+                                </li>
                                 <li>
-                                    консультировать других участников команды в области создания и реализации игровых
-                                    фич на Unreal и Unity; </li>
+                                    Консультировать других участников команды в области создания и реализации игровых
+                                    фич на Unreal и Unity;
+                                </li>
                                 <li>
-                                    заниматься обеспечением баланса между арт- и дизайнерскими задачами (особенно в
-                                    таких областях, как левел-дизайн) путем взаимодействия с командами художников; </li>
+                                    Заниматься обеспечением баланса между арт- и дизайнерскими задачами (особенно в
+                                    таких областях, как левел-дизайн) путем взаимодействия с командами художников; 
+                                </li>
                                 <li>
-                                    тесно взаимодействовать с командой инженеров на предмет разработки инструментов
+                                    Тесно взаимодействовать с командой инженеров на предмет разработки инструментов
                                     проектирования и их спецификаций, позволяющих создателям контента быстро выполнять
-                                    итерации; </li>
+                                    итерации; 
+                                </li>
                                 <li>
-                                    работать в сотрудничестве с руководящей группой проекта над созданием интересного и
-                                    качественного продукта </li>
+                                    Работать в сотрудничестве с руководящей группой проекта над созданием интересного и
+                                    качественного продукта 
+                                </li>
                             </ul>
                         </div>
                         <div class="tab-pane text-justify fade" id="pills-companyInfo4" role="tabpanel" aria-labelledby="pills-companyInfo4-tab">
-                            <a class="gamedev" href="https://wargaming.com/" title="Wargaming">Wargaming</a> — один из
+                            <p>
+                                <a class="gamedev" href="https://wargaming.com/" title="Wargaming">Wargaming</a> — один из
                             крупнейших мировых издателей и разработчиков на рынке free-to-play MMO.
                             Сегодня компания, основанная в 1998 году, располагает офисами по всему миру и насчитывает
                             более 4000 сотрудников. Аудитория игр Wargaming, включая флагманские проекты World of Tanks
                             и World of Warships, охватывает более 200 миллионов пользователей на всех крупных игровых
                             платформах.
-
+                            </p>
+                            <p>
                             Карьера в нашей компании — это разнообразие интересных задач и возможность повысить свой
                             профессиональный уровень, работая с экспертами мирового класса.
+                            </p>
                         </div>
                     </div>
                     <div class="text-center">
@@ -436,50 +442,53 @@
                             aria-labelledby="pills-requirements1-tab">
                             <ul>
                                 <li>
-                                    опыт работы в сфере дизайна от 1-го года;
+                                    Опыт работы в сфере дизайна от 1-го года;
                                 <li>
-                                    умение работать с продуктами Adobe;
+                                    Умение работать с продуктами Adobe;
                                 </li>
                                 <li>
-                                    владение основами композиции и цветоведения;
+                                    Владение основами композиции и цветоведения;
                                 </li>
                                 <li>
-                                    наличие художественного вкуса, увлеченность последними тенденциями в сфере дизайна;
+                                    Наличие художественного вкуса, увлеченность последними тенденциями в сфере дизайна;
                                 </li>
                                 <li>
-                                    наличие портфолио обязательно;
+                                    Наличие портфолио обязательно;
                                 </li>
                                 <li>
-                                    умение оценивать сроки для выполнения задач и соблюдение этих сроков;
+                                    Умение оценивать сроки для выполнения задач и соблюдение этих сроков;
                                 </li>
                                 <li>
-                                    знание английского языка — на уровне чтения профессиональной литературы.
+                                    Знание английского языка — на уровне чтения профессиональной литературы.
                                 </li>
                             </ul>
                         </div>
                         <div class="tab-pane text-justify fade" id="pills-conditions1" role="tabpanel" aria-labelledby="pills-conditions1-tab">
                             <ul>
                                 <li>
-                                    умение работать с продуктами Adobe;
+                                    Умение работать с продуктами Adobe;
                                 </li>
                                 <li>
-                                    высокий доход (действует бонусная система);
+                                    Высокий доход (действует бонусная система);
                                 </li>
                                 <li>
-                                    оплату спортивных увлечений; </li>
+                                    Оплату спортивных увлечений;
+                                </li>
                                 <li>
-                                    занятия английским языком в офисе; </li>
+                                    Занятия английским языком в офисе; </li>
                                 <li>
-                                    современный и уютный офис в центре Минска с террасой и отличным кофе, печеньем и
+                                    Современный и уютный офис в центре Минска с террасой и отличным кофе, печеньем и
                                     фруктами. </li>
                             </ul>
                         </div>
                         <div class="tab-pane text-justify fade" id="pills-companyInfo1" role="tabpanel" aria-labelledby="pills-companyInfo1-tab">
-                            <a class="design" href="https://easybrain.com/" title="Easybrain">ООО "Изибрэйн"</a> –
+                            <p>
+                                <a class="design" href="https://easybrain.com/" title="Easybrain">ООО "Изибрэйн"</a> –
                             отечественная организация – является центром разработки компании Easybrain
                             Ltd и специализируется на разработке программного обеспечения общего пользования на базе
                             мобильных операционных систем iOS и Android. ООО "Изибрэйн" основано в 2016 году. В
                             настоящее время штат насчитывает 30 сотрудников, дислоцирующихся в городе Минске.
+                            </p>
                         </div>
                     </div>
                     <div class="text-center">
@@ -493,7 +502,7 @@
         <!--/Карточка 3-->
         <!--/Карточки jumbotron-->
     </div>
-    <div class="modal fade" id="modalCVForm" tabindex="-1" role="dialog" aria-labelledby="modalCVForm" aria-hidden="true">
+    <div class="modal fade" id="modalCVForm"  role="dialog" aria-labelledby="modalCVForm" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header text-center">
@@ -513,7 +522,6 @@
                         <input type="text" id="form3" name="Name" class="form-control validate">
                         <label data-error="Введите имя" data-success="Принято">Ваше имя</label>
                     </div>
-
                     <div class="md-form mb-3">
                         <input type="email" id="form4" name="Email" class="form-control validate">
                         <label data-error="Неверный формат" data-success="Принято">Адрес электронной почты</label>
@@ -540,7 +548,7 @@
             <div class="row justify-content-md-center">
                 <div class="col-md-auto">
                     <a class="text-uppercase" data-toggle="modal" data-target="#modalContactForm">Сообщить об ошибке</a>
-                    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="modalContactForm"
+                    <div class="modal fade" id="modalContactForm"  role="dialog" aria-labelledby="modalContactForm"
                         aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -568,7 +576,7 @@
                 </div>
                 <div class="col-md-auto">
                     <a class="text-uppercase" data-toggle="modal" data-target="#modalContactForm2">Сотрудничество</a>
-                    <div class="modal fade" id="modalContactForm2" tabindex="-1" role="dialog" aria-labelledby="modalContactForm2"
+                    <div class="modal fade" id="modalContactForm2"  role="dialog" aria-labelledby="modalContactForm2"
                         aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -607,7 +615,7 @@
                 </div>
                 <div class="col-md-auto">
                     <a class="text-uppercase" data-toggle="modal" data-target="#modalInfo">О нас</a>
-                    <div class="modal fade" id="modalInfo" tabindex="-1" role="dialog" aria-labelledby="modalInfo"
+                    <div class="modal fade" id="modalInfo"  role="dialog" aria-labelledby="modalInfo"
                         aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content black-text ">
@@ -637,16 +645,15 @@
             </div>
         </div>
         <div class="container-fluid py-3">
-            <div>© 2018 Copyright: <a href="#">Elitel</a></div>
+            <div>© 2018 Copyright: <a href="https://vk.com/l_t_l" title="Elitel">Elitel</a></div>
         </div>
     </footer>
     <!--/Футер-->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mdb.min.js"></script>
     <script src="js/aos.js"></script>
-    <script src="js/scripts.js"></script>
+
     <script src="js/animation_cards.js"></script>
     <script>
         $('#modalCVForm').on('show.bs.modal', function (e) {
