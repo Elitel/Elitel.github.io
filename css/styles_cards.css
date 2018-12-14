@@ -10,7 +10,7 @@
     padding-top: 75px;
     background: #ccc;
     text-align: center;
-    color: #FFF;
+    color: #F1F0F6;
     font-size: 3em;
 }
 [aos="fade"]
@@ -43,17 +43,17 @@ h5.design
 a.btn.gamedev
 {
   background-color: #ff3547;
-  color: #fff;
+  color: #F1F0F6;
 }
 a.btn.frontend
 {
   background-color: #460996;
-  color: #fff;
+  color: #F1F0F6;
 }
 a.btn.design
 {
   background-color: #4DB6AC;
-  color: #fff;
+  color: #F1F0F6;
 }
 
 /*Ссылки специальностей*/
